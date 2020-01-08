@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clearfix::after {
+    content:"";
+    display:block;
+    clear: both;
+}
+.vater {
+    height: 50vh;
+    width: 1000px;
+    margin: 0 auto;
+}
+div.first {
+width: 400px;
+height: 400px;
+background-color: aqua;
+float: left;
+margin:20px;
+text-align: center;
+line-height: 400px;
+
+}
+div.second {
+width: 400px;
+height: 400px;
+background-color: blue;
+float: left;
+margin:20px;
+text-align: center;
+line-height: 400px;
+}
+div.third {
+width: 400px;
+height: 400px;
+background-color: brown;
+float: left;
+margin:20px;
+text-align: center;
+line-height: 400px;
+}
+div.fourth {
+width: 400px;
+height: 400px;
+background-color: rgb(126, 39, 138);
+float: left;
+margin:20px;
+text-align: center;
+line-height: 400px;
+}
